@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HomeServelt</servlet-name>
+    <servlet-class>com.wyf.servelt.HomeServelt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HeadServelt</servlet-name>
+    <servlet-class>com.wyf.servelt.HeadServelt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FootServlet</servlet-name>
+    <servlet-class>com.wyf.servelt.FootServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AboutServelt</servlet-name>
+    <servlet-class>com.wyf.servelt.AboutServelt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MapServelt</servlet-name>
+    <servlet-class>com.wyf.servelt.MapServelt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductlistServelt</servlet-name>
+    <servlet-class>com.wyf.servelt.ProductlistServelt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Article_listServelt</servlet-name>
+    <servlet-class>com.wyf.servelt.Article_listServelt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Article_list_contentServelt</servlet-name>
+    <servlet-class>com.wyf.servelt.Article_list_contentServelt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductdetailsServelt</servlet-name>
+    <servlet-class>com.wyf.servelt.ProductdetailsServelt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageServelt</servlet-name>
+    <servlet-class>com.wyf.servelt.MessageServelt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ContactServelt</servlet-name>
+    <servlet-class>com.wyf.servelt.ContactServelt</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>HomeServelt</servlet-name>
+    <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HeadServelt</servlet-name>
+    <url-pattern>/head</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FootServlet</servlet-name>
+    <url-pattern>/foot</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AboutServelt</servlet-name>
+    <url-pattern>/about</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MapServelt</servlet-name>
+    <url-pattern>/map</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductlistServelt</servlet-name>
+    <url-pattern>/productlist</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Article_listServelt</servlet-name>
+    <url-pattern>/article_list</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Article_list_contentServelt</servlet-name>
+    <url-pattern>/article_list_content</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductdetailsServelt</servlet-name>
+    <url-pattern>/productdetails</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageServelt</servlet-name>
+    <url-pattern>/message</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContactServelt</servlet-name>
+    <url-pattern>/contact</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>home</welcome-file>
+  </welcome-file-list>
+</web-app>
